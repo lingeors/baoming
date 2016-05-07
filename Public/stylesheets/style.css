@@ -1,0 +1,53 @@
+body{
+    /*background-color: #F5F5D5;*/
+    padding: 0 2em;
+}
+.content{
+  /*border: 1px solid black;*/
+  width: 600px;
+  margin: 2em auto;
+}
+header{
+    padding: .5em 0;
+    border-bottom: 1px solid #CCCCCC;
+}
+nav{
+  /*border: 1px solid;*/  
+   float: left;
+   position: fixed;
+  margin-top: 5em;
+  font-size: 2.0em;
+  margin-left: -12em;
+  width: 9em;
+  text-align: right;
+}
+
+nav a{
+  display: block;
+  text-decoration: none;
+  padding: .7em 1em;
+}
+
+nav a:hover{
+  background-color: #C0C0C0 ;
+    color: #ffffff;
+  -webkit-transition: color .2s linear;
+}
+
+.form{
+  margin-top: 2em;
+}
+
+table{
+  margin-top: 2em;
+}
+
+.dataHanding{
+  position: fixed;
+  font-size: 1.0em;
+  width: 15em;
+  left:85%;
+  top:30%;
+
+  /*text-align: right;*/
+}
